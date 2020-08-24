@@ -1,0 +1,27 @@
+**The Battle of Neighborhoods Introduction**
+**Introduction**:
+The purpose of this project is to help people in exploring better facilities around their neighborhood. It will help people making a smart and efficient decision on selecting a great neighborhood out of numbers of other neighborhoods in Shanghai, China.
+Lots of people from other parts of China are moving to China for better development and need lots of research for good housing prices and convenient living environments. This project is for those people who are looking for better neighborhoods. For ease of accessing to the workplace, school, hospital, and metro station, etc.
+This project aims to create an analysis of features for people moving to Shanghai to search the best neighborhood as a comparative analysis between neighborhoods. The features include median housing price and better school according to ratings, crime rates of that particular area, road connectivity, good management for an emergency, water resources both fresh and wastewater and excrement conveyed in sewers and recreational facilities.
+It will help people to get awareness of the area and neighborhood before moving to a new city, state, country or place for their work or to start a new fresh life.
+**Problem Which Tried to Solve**:
+The major purpose of this project, is to suggest a better neighborhood in Shanghai for the person who are moving there. Social presence in society in terms of connectivity to the airport, bus stand, city center, markets, and other daily needs things nearby.
+Sorted list of the house in terms of housing prices in descending order
+Sorted list of schools in terms of location, fees, rating, and reviews
+**The Location**:
+Shanghai is the commercial and economic center of Southern China. People living in Shanghai come from nearly all other parts of China, making Shanghai a more plural and vibrant city. Many famous universities and transnational corporations located in this city attract thousands of young talents to choose Shanghai as a start point career.
+**Foursquare API**:
+This project would use Four-square API as its prime data gathering source as it has a database of millions of places, especially their places API which provides the ability to perform location search, location sharing and details about a business.
+**Work Flow**:
+Using credentials of Foursquare API features of near-by places of the neighborhoods would be mined. Due to http request limitations the number of places per neighborhood parameter would reasonably be set to 100 and the radius parameter would be set to 500.
+**Clustering Approach**:
+To compare the similarities of two cities, we decided to explore neighborhoods, segment them, and group them into clusters to find similar neighborhoods in a big city like Beijing and Guangzhou. To be able to do that, we need to cluster data which is a form of unsupervised machine learning: k-means clustering algorithm
+Libraries Which are Used to Develop the Project:
+Pandas: For creating and manipulating data frames.
+Folium: Python visualization library would be used to visualize the neighborhoods cluster distribution of using interactive leaflet map.
+Scikit Learn: For importing k-means clustering.
+JSON: Library to handle JSON files.
+XML: To separate data from presentation and XML stores data in plain text format.
+Geocoder: To retrieve Location Data.
+Beautiful Soup and Requests: To scrap and library to handle http requests.
+Matplotlib: Python Plotting Module.
